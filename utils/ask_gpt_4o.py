@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='your api key')
+client = OpenAI(api_key='your_api_key')
 
 
 def ask_gpt_4o_sys_user(system_prompt, user_prompt):
